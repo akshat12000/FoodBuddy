@@ -1,0 +1,59 @@
+.registerForm{
+    margin:3rem auto;
+    width: 30%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px rgb(213, 212, 212);
+    padding:2rem;
+}
+.registerForm-input{
+    display: block;
+    margin: 1rem auto;
+    width: 95%;
+    height: 1.1rem;
+    padding:0.6rem;
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    border-radius: 0.3rem;
+    box-shadow: inset 0px 0px 2px #888;
+}
+
+.registerForm button{
+    display: block;
+    padding:0.4rem 0.8rem;
+    border:0;
+    margin:1rem auto;
+    width: 30%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(255, 117, 93);;
+    color: rgb(255, 117, 93);
+    background-color: white;
+}
+
+.registerForm button:hover{
+    background-color: rgb(255, 117, 93);
+    color:white;
+}
+
+.registerForm a{
+    text-decoration: none;
+    color: #888;
+}
+
+.registerForm a:hover{
+    color:#333;
+}
+
+.chooseFile{
+    box-shadow: unset;
+}
+
+.chooseFile::-webkit-file-upload-button{
+    background-color: rgb(255, 117, 93);
+    width: 50%;
+    color:white;
+    outline: 0;
+    border:0;
+    border-radius: 0.3rem;
+    padding:0.4rem 0.8rem;
+}

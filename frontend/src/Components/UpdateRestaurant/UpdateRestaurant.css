@@ -1,0 +1,18 @@
+.updateRestaurantForm-Input{
+    display: block;
+    margin: 1rem auto;
+    width: 30%;
+    padding:0.6rem;
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    border-radius: 0.3rem;
+    box-shadow: inset 0px 0px 2px #888;
+}
+.listMenuItems{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

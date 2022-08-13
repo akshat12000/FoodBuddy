@@ -1,0 +1,114 @@
+.restaurantMenuItem{
+    width: 15rem;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 5px rgb(213, 212, 212);
+    margin: 1rem auto;
+}
+.restaurantMainDiv{
+    overflow-y: auto;
+    max-height: 87.5vh;
+}
+.restaurantMenuItem img{
+    width: 100%;
+    margin: auto;
+}
+.restaurantMenuDisplay{
+    display: flex;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    flex-basis: 33.33%;
+    width: 50%;
+    margin: auto;
+}
+.tag{
+    color: rgb(152, 150, 150);
+}
+.orderDiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.orderDiv button{
+    width:2.5rem;
+}
+.orderDiv button svg{
+    position: relative;
+    right: 0.25rem;
+}
+.orderSummary{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 117, 93);
+    box-shadow: 0px 0px 5px rgb(213, 212, 212);
+    color: white;
+    text-align: left;
+}
+.orderSummary div p{
+    margin-left: 1rem;
+}
+.orderSummary button{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 117, 93);
+    background-color: white;
+    border: 0;
+    padding: 0.4rem 0.7rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.orderSummaryCard{
+    margin: 2rem auto;
+    background-color: white;
+    padding: 1rem;
+    width: 45%;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 5px rgb(213, 212, 212);
+}
+.orderCard{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+}
+.orderCard div img{
+    width:30%;
+}
+.div-1{
+    flex: 0 0 40%;
+}
+.div-2{
+    flex: 0 0 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.orderSummaryCard hr{
+    border: 0;
+    border-top: 1px solid rgb(255, 117, 93);
+}
+.placeOrderDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cancelBtn{
+    border: 1px solid rgb(255, 117, 93) !important;
+    margin-left: 0.5rem !important;
+    color: rgb(255, 117, 93) !important;
+}
+.cancelBtn:hover{
+    background-color: rgb(255, 117, 93) !important;
+    color:white !important;
+}
+.btnDiv{
+    display: flex;
+}

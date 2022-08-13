@@ -1,0 +1,20 @@
+.menuCardDiv{
+    width: 15rem;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 5px rgb(213, 212, 212);
+}
+.menuCardDiv img{
+    width: 100%;
+    margin: auto;
+}
+.menuCardDiv p{
+    padding-bottom:1rem;
+}
+.tag{
+    color: rgb(152, 150, 150);
+}
+.optionsDiv{
+    position: absolute;
+    z-index: +1;
+    padding:0.2rem;
+}

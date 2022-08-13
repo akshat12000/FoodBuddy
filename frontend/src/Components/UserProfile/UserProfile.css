@@ -1,0 +1,80 @@
+.userProfileBox{
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 45%;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 5px rgb(213, 212, 212);
+}
+.updateForm-input{
+    display: block;
+    margin: 1rem auto;
+    width: 95%;
+    height: 1.1rem;
+    padding:0.6rem;
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    border-radius: 0.3rem;
+    box-shadow: inset 0px 0px 2px #888;
+}
+.chooseFile{
+    box-shadow: unset;
+}
+
+.chooseFile::-webkit-file-upload-button{
+    background-color: rgb(92, 117, 240);
+    width: 50%;
+    color:white;
+    outline: 0;
+    border:0;
+    border-radius: 0.3rem;
+    padding:0.4rem 0.8rem;
+}
+.overlayDiv{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    z-index: +1;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.overlayDiv form{
+    background-color: white;
+}
+.overlayDiv button,.updateBtn,.deleteBtn{
+    display: block;
+    padding:0.4rem 0.8rem;
+    border:0;
+    margin:1rem auto;
+    width: 30%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(92, 117, 240);
+    color: rgb(92, 117, 240);
+    background-color: white;
+}
+.overlayDiv button:hover,.updateBtn:hover{
+    background-color: rgb(92, 117, 240);
+    color:white;
+}
+.deleteBtn{
+    border: 1px solid rgb(255, 117, 93);
+    color: rgb(255, 117, 93);
+}
+.deleteBtn:hover{
+    background-color: rgb(255, 117, 93);
+    color:white;
+}
+.overlayDiv button{
+    width:8rem;
+}
+.updateBtn,.deleteBtn{
+    display: flex;
+    width:9rem;
+    align-items: center;
+}
+.crossBtn{
+    position: relative;
+    left:50%;
+}
